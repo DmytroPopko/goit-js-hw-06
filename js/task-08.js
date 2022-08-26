@@ -18,7 +18,6 @@ function sengLoginForm() {
         });
 
         if (hasEmptyField) {
-            userData = {};
             alert("Все поля должны быть заполнены!");
         } else {
             console.log(userData);

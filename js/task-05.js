@@ -17,8 +17,7 @@ function readInput () {
         if (event.currentTarget.value === "") {
             refs.nameLabel.textContent = initiallyValue;
         }
-    
-        console.log(event.currentTarget.value);
+
     }
 }
 

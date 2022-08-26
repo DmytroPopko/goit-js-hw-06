@@ -20,8 +20,6 @@ function makeGallery() {
     return `<img src=${url} alt=${alt} width="500">`;
   };
 
-  console.log(images);
-
   const imgEl = document.querySelector('.gallery');
 
   imgEl.style.display = "flex";
@@ -32,7 +30,6 @@ function makeGallery() {
     .join('');
 
   imgEl.insertAdjacentHTML('beforeend', transactionTableRowsMarkup);
-  console.log(transactionTableRowsMarkup);
   
 };
 
