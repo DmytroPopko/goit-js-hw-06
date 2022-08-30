@@ -41,7 +41,7 @@ function createDivByNumber() {
     boxEl.append(...boxes);
   };
   
-  function destroyBoxes(amount) {
+  function destroyBoxes() {
     boxEl.innerHTML = "";
   }
 
